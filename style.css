@@ -23,7 +23,7 @@
 }
 
 body {
-    background-color: var(--cor00);
+    background-image: url(imagens/img.fundo.paisagem1000.jpg);
 }
 
 header {
@@ -58,16 +58,17 @@ nav > a {
 }
 
 main {
-    min-width: 300px;
+    min-width: 600px;
     max-width: 1000px;
     margin: auto;
-    background-color: white;
 }
 main > p {
-    font-family: var(--font-padrao);
-    line-height: 20px;
-    padding: 100px 300px 100px 300px;
+    font-family: var(--font-manoescrita);
+    line-height: 30px;
+    padding: 100px 25px 50px 25px;
     text-align: justify;
+    color: white;
+    font-size: 30px;
 }
 
 
