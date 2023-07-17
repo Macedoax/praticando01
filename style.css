@@ -23,7 +23,12 @@
 }
 
 body {
+    background-color: var(--cor01);
     background-image: url(imagens/img.fundo.paisagem1000.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 header {
@@ -44,8 +49,9 @@ header > h1 {
 nav {
     margin: auto; 
     border: 40px;
+    padding-bottom: 10px;
     background-color: var(--cor03);
-    box-shadow: 0px 7px 5px  rgba(0, 0, 0, 0.429);
+    box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.255);
 }
 
 nav > a {
@@ -54,7 +60,7 @@ nav > a {
     text-decoration: none;
     padding: 7px;
     color: white;
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.43);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.516);
 }
 
 main {
