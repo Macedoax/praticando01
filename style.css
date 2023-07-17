@@ -24,7 +24,7 @@
 
 body {
     background-color: var(--cor01);
-    background-image: url(imagens/img.fundo.paisagem1000.jpg);
+    background-image: url(imagens/img.fundo.paisagem.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,6 +34,7 @@ body {
 
 header {
     margin: auto;
+    box-shadow: 0px 5px 5px  rgba(0, 0, 0, 0.255);
 }
 
 header > h1 {
@@ -59,9 +60,17 @@ nav > a {
     font-family: var(--font-destaque);
     font-size: 20px;
     text-decoration: none;
-    padding: 7px;
+    padding: 5px 7px 5px 7px;
     color: white;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.516);
+    display:inline-block;
+}
+
+nav > a:hover {
+    background-color: var(--cor01);
+    color: var(--cor03);
+    text-decoration: underline;
+    border-radius: 5px;
 }
 
 main#principal {
@@ -69,7 +78,7 @@ main#principal {
     max-width: 1000px;
     margin: auto;
 }
-main > p {
+main > p#introducao {
     font-family: var(--font-manoescrita);
     line-height: 30px;
     padding: 100px 25px 50px 25px;
@@ -77,6 +86,54 @@ main > p {
     color: white;
     font-size: 30px;
 }
+
+main#video {
+    background-color: var(--cor00);
+    max-width: 1200px;
+    min-width: 400px;
+    margin: auto;
+}
+
+header > h2{
+    font-family:var(--font-manoescrita);
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom,#3F83BF, #234459);
+    text-align: center;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.43);
+    padding: 50px 0px 20px 0px; ;
+    height: 90px;
+}
+
+header > p {
+    background-color: var(--cor03);
+    font-family:var(--font-manoescrita);
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.523);
+    padding: 0px 130px 10px 130px;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+article > li { 
+    font-family: var(--font-destaque);
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+section > p {
+    font-family: var(--font-padrao);
+    padding: 20px;
+    text-align: justify;
+}
+
+
+
 
 
 
